@@ -1,0 +1,27 @@
+/* SIDENAV CONTAINER */
+.sideNavContainer {
+    height: 100vh;
+    border-right: 1px groove white;
+    padding-left: 1rem;
+}
+/* SIDENAV CONTAINER END */
+
+/* TITLE CONTAINER */
+.titleContainer {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleContainer .title {
+    font-family: cursive;
+    font-size: 1.3rem;
+}
+
+.hamContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* END */

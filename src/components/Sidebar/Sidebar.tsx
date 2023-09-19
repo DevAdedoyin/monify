@@ -1,7 +1,8 @@
-import React, { ReactNode } from "react";
+import React, { ReactNode, useState } from "react";
 import NavComponents from "./NavComponents";
 import NavItems from "./NavItems";
 import SidebarStyle from "./Sidebar.module.css";
+import { FaBars } from "react-icons/fa";
 
 interface Props {
   children?: ReactNode;
@@ -9,11 +10,20 @@ interface Props {
 }
 
 export default function Sidebar({ children }: Props) {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+
   return (
     <div className={SidebarStyle.container}>
-      <div className={SidebarStyle.sideNavContainer}>
+      <div
+        style={{ width: isOpen ? "18%" : "10%" }}
+        className={SidebarStyle.sideNavContainer}
+      >
         <div className={SidebarStyle.titleContainer}>
-          <p className={SidebarStyle.title}>Monify.io</p>
+          <h1 className={SidebarStyle.title} style={{display: isOpen ? "" : "none"}}>Monify.io</h1>
+          <div className={SidebarStyle.hamContainer}>
+            <FaBars onClick={toggle} />
+          </div>
         </div>
         <div className={SidebarStyle.sectionTitle}>
           <h3 className={SidebarStyle.title}>ACCOUNT</h3>
