@@ -1,0 +1,11 @@
+.navItemContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+.navIcon {
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
