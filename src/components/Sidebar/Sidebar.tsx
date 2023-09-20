@@ -16,8 +16,11 @@ export default function Sidebar({ children }: Props) {
   return (
     <div className={SidebarStyle.container}>
       <div
-        style={{ width: isOpen ? "18%" : "5%" }}
-        className={SidebarStyle.sideNavContainer}
+        className={
+          isOpen
+            ? SidebarStyle.sideNavContainer
+            : SidebarStyle.sideNavContainerClosed
+        }
       >
         <div className={SidebarStyle.titleContainer}>
           <h1

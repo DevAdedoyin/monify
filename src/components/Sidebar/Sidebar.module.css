@@ -4,6 +4,17 @@
     border-right: 1px groove var(--border-color);
     padding-left: 1rem;
     padding-right: 1rem;
+    width: 15%;
+    transition: all ease-in 0.2s;
+}
+
+.sideNavContainerClosed {
+    height: 100vh;
+    width: 5%;
+    border-right: 1px groove var(--border-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: all ease-in 0.3s;
 }
 /* SIDENAV CONTAINER END */
 

@@ -15,10 +15,7 @@ function NavComponent({ name, icon, path, isOpen }: Props) {
         alt=""
         className={isOpen ? NavStyles.navIcon : NavStyles.navIconClosed}
       />
-      <p
-        className={NavStyles.navTitle}
-        style={{ display: isOpen ? "" : "none" }}
-      >
+      <p className={isOpen ? NavStyles.navTitle : NavStyles.navTitleClosed}>
         {name}
       </p>
     </div>
