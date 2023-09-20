@@ -5,11 +5,15 @@ type Props = { name: string; icon: string; path: string; isOpen: boolean };
 
 function NavComponent({ name, icon, path, isOpen }: Props) {
   return (
-    <div className={NavStyles.navItemContainer} style={{}}>
+    <div
+      className={
+        isOpen ? NavStyles.navItemContainer : NavStyles.navItemContainerClosed
+      }
+    >
       <img
         src={icon}
         alt=""
-        className={isOpen ? NavStyles.navIcon : NavStyles.navIconClosed }
+        className={isOpen ? NavStyles.navIcon : NavStyles.navIconClosed}
       />
       <p
         className={NavStyles.navTitle}

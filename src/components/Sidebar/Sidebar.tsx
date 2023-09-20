@@ -39,7 +39,13 @@ export default function Sidebar({ children }: Props) {
             ACCOUNT
           </h3>
         </div>
-        <div className={SidebarStyle.navsContainer}>
+        <div
+          className={
+            isOpen
+              ? SidebarStyle.navsContainer
+              : SidebarStyle.navsContainerClosed
+          }
+        >
           {NavItems.account.map((data, index) => {
             return <NavComponents {...data} key={index} isOpen={isOpen} />;
           })}
@@ -56,7 +62,13 @@ export default function Sidebar({ children }: Props) {
             PRODUCT
           </h3>
         </div>
-        <div className={SidebarStyle.navsContainer}>
+        <div
+          className={
+            isOpen
+              ? SidebarStyle.navsContainer
+              : SidebarStyle.navsContainerClosed
+          }
+        >
           {NavItems.product.map((data, index) => {
             return <NavComponents {...data} key={index} isOpen={isOpen} />;
           })}
@@ -73,7 +85,13 @@ export default function Sidebar({ children }: Props) {
             ADMIN
           </h3>
         </div>
-        <div className={SidebarStyle.navsContainer}>
+        <div
+          className={
+            isOpen
+              ? SidebarStyle.navsContainer
+              : SidebarStyle.navsContainerClosed
+          }
+        >
           {NavItems.admin.map((data, index) => {
             return <NavComponents {...data} key={index} isOpen={isOpen} />;
           })}

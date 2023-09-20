@@ -44,6 +44,12 @@
 }
 /* SECTION TITLE END */
 
+/* NAVS CONTAINER */
+.navsContainerClosed {
+    margin-bottom: 2rem;
+}
+/* NAVS CONTAINER END */
+
 /* HR */
 hr {
     margin: 1.4rem auto;

@@ -4,6 +4,12 @@
     margin-bottom: 0.8rem;
 }
 
+.navItemContainerClosed {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
 .navIcon {
     width: 0.9rem;
     height: 0.9rem;
