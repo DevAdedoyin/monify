@@ -16,7 +16,7 @@ export default function Sidebar({ children }: Props) {
   return (
     <div className={SidebarStyle.container}>
       <div
-        style={{ width: isOpen ? "18%" : "10%" }}
+        style={{ width: isOpen ? "18%" : "5%" }}
         className={SidebarStyle.sideNavContainer}
       >
         <div className={SidebarStyle.titleContainer}>
@@ -26,28 +26,52 @@ export default function Sidebar({ children }: Props) {
           >
             Monify.io
           </h1>
-          <FaBars onClick={toggle} />
+          <FaBars onClick={toggle} style={{ margin: isOpen ? "" : "auto" }} />
         </div>
         <div className={SidebarStyle.sectionTitleContainer}>
-          <h3 className={SidebarStyle.sectionTitle}>ACCOUNT</h3>
+          <h3
+            className={
+              isOpen
+                ? SidebarStyle.sectionTitle
+                : SidebarStyle.sectionTitleClosed
+            }
+          >
+            ACCOUNT
+          </h3>
         </div>
         <div className={SidebarStyle.navsContainer}>
           {NavItems.account.map((data, index) => {
             return <NavComponents {...data} key={index} isOpen={isOpen} />;
           })}
         </div>
-        <hr />
+        <hr style={{ display: isOpen ? "" : "none" }} />
         <div className={SidebarStyle.sectionTitleContainer}>
-          <h3 className={SidebarStyle.sectionTitle}>PRODUCT</h3>
+          <h3
+            className={
+              isOpen
+                ? SidebarStyle.sectionTitle
+                : SidebarStyle.sectionTitleClosed
+            }
+          >
+            PRODUCT
+          </h3>
         </div>
         <div className={SidebarStyle.navsContainer}>
           {NavItems.product.map((data, index) => {
             return <NavComponents {...data} key={index} isOpen={isOpen} />;
           })}
         </div>
-        <hr />
+        <hr style={{ display: isOpen ? "" : "none" }} />
         <div className={SidebarStyle.sectionTitleContainer}>
-          <h3 className={SidebarStyle.sectionTitle}>ADMIN</h3>
+          <h3
+            className={
+              isOpen
+                ? SidebarStyle.sectionTitle
+                : SidebarStyle.sectionTitleClosed
+            }
+          >
+            ADMIN
+          </h3>
         </div>
         <div className={SidebarStyle.navsContainer}>
           {NavItems.admin.map((data, index) => {

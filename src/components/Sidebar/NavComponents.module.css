@@ -7,5 +7,12 @@
 .navIcon {
     width: 0.9rem;
     height: 0.9rem;
+    margin-right: 1rem;
+}
+
+.navIconClosed {
+    margin: auto;
+    width: 1.2rem;
+    height: 1.2rem;
 }
 

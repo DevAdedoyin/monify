@@ -3,6 +3,7 @@
     height: 100vh;
     border-right: 1px groove var(--border-color);
     padding-left: 1rem;
+    padding-right: 1rem;
 }
 /* SIDENAV CONTAINER END */
 
@@ -33,6 +34,13 @@
     font-size: var(--medium-font);
     color: var(--grey-font);
     margin-bottom: 0.8rem;
+}
+
+.sectionTitleContainer .sectionTitleClosed {
+    font-size: var(--small-font);
+    color: var(--grey-font);
+    margin-bottom: 1rem;
+    text-align: center;
 }
 /* SECTION TITLE END */
 
