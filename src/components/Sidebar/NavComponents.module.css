@@ -4,10 +4,18 @@
     margin-bottom: 0.8rem;
 }
 
+.navItemContainer:hover {
+    cursor: pointer;
+}
+
 .navItemContainerClosed {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
+}
+
+.navItemContainerClosed:hover {
+    cursor: pointer;
 }
 
 .navIcon {
@@ -18,7 +26,12 @@
 
 .navTitle {
     display: block;
-    transition: all ease-in 0.5s;
+    transition: display ease-in 0.5s, color ease-in 0.2s;
+    color: var(--lighgrey);
+}
+
+.navTitle:hover {
+    color: white;
 }
 
 .navTitleClosed {
@@ -30,5 +43,10 @@
     margin: auto;
     width: 1.2rem;
     height: 1.2rem;
+    transition: all ease-in 0.2s;
 }
 
+.navIconClosed:hover {
+    width: 1.5rem;
+    height: 1.2rem;
+}
