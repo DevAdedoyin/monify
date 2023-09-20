@@ -12,6 +12,7 @@
     padding: 1rem;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 1.2rem;
 }
 
 .titleContainer .title {
@@ -28,12 +29,17 @@
 /* END */
 
 /* SECTION TITLE */
-.sectionTitleContainer {
-    background-color: brown;
-}
-
 .sectionTitleContainer .sectionTitle {
     font-size: var(--medium-font);
     color: var(--grey-font);
+    margin-bottom: 0.8rem;
 }
 /* SECTION TITLE END */
+
+/* HR */
+hr {
+    margin: 1.4rem auto;
+    margin-right: 1rem;
+    color: var(--border-color);
+}
+/* HR END */
