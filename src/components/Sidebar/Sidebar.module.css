@@ -27,3 +27,13 @@
 }
 /* END */
 
+/* SECTION TITLE */
+.sectionTitleContainer {
+    background-color: brown;
+}
+
+.sectionTitleContainer .sectionTitle {
+    font-size: var(--medium-font);
+    color: var(--grey-font);
+}
+/* SECTION TITLE END */

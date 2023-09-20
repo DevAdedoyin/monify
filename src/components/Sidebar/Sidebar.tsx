@@ -28,8 +28,8 @@ export default function Sidebar({ children }: Props) {
           </h1>
           <FaBars onClick={toggle} />
         </div>
-        <div className={SidebarStyle.sectionTitle}>
-          <h3 className={SidebarStyle.title}>ACCOUNT</h3>
+        <div className={SidebarStyle.sectionTitleContainer}>
+          <h3 className={SidebarStyle.sectionTitle}>ACCOUNT</h3>
         </div>
         <div className={SidebarStyle.navsContainer}>
           {NavItems.account.map((data, index) => {
@@ -37,8 +37,8 @@ export default function Sidebar({ children }: Props) {
           })}
         </div>
         <hr />
-        <div className={SidebarStyle.sectionTitle}>
-          <h3 className={SidebarStyle.title}>PRODUCT</h3>
+        <div className={SidebarStyle.sectionTitleContainer}>
+          <h3 className={SidebarStyle.sectionTitle}>PRODUCT</h3>
         </div>
         <div className={SidebarStyle.navsContainer}>
           {NavItems.product.map((data, index) => {
@@ -46,8 +46,8 @@ export default function Sidebar({ children }: Props) {
           })}
         </div>
         <hr />
-        <div className={SidebarStyle.sectionTitle}>
-          <h3 className={SidebarStyle.title}>ADMIN</h3>
+        <div className={SidebarStyle.sectionTitleContainer}>
+          <h3 className={SidebarStyle.sectionTitle}>ADMIN</h3>
         </div>
         <div className={SidebarStyle.navsContainer}>
           {NavItems.admin.map((data, index) => {

@@ -4,12 +4,16 @@
   text-decoration: none;
   background-color: rgb(7, 7, 7);
   color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 :root {
+  --nav-font: 1rem;
+  --large-font: 2rem;
+  --medium-font: 0.9rem;
+  --small-font: 0.8rem;
+
+  /* Colors */
   --border-color: gray;
-  --nav-font-size: 1rem;
-  --large-font-size: 2rem;
-  --medium-font-size: 1.5rem;
-  --small-font-size: 0.8rem
+  --grey-font: rgb(168, 166, 166);
 }
