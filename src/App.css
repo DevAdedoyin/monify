@@ -5,3 +5,11 @@
   background-color: rgb(7, 7, 7);
   color: white;
 }
+
+:root {
+  --border-color: gray;
+  --nav-font-size: 1rem;
+  --large-font-size: 2rem;
+  --medium-font-size: 1.5rem;
+  --small-font-size: 0.8rem
+}

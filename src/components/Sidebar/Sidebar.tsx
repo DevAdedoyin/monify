@@ -20,10 +20,13 @@ export default function Sidebar({ children }: Props) {
         className={SidebarStyle.sideNavContainer}
       >
         <div className={SidebarStyle.titleContainer}>
-          <h1 className={SidebarStyle.title} style={{display: isOpen ? "" : "none"}}>Monify.io</h1>
-          <div className={SidebarStyle.hamContainer}>
-            <FaBars onClick={toggle} />
-          </div>
+          <h1
+            className={SidebarStyle.title}
+            style={{ display: isOpen ? "" : "none" }}
+          >
+            Monify.io
+          </h1>
+          <FaBars onClick={toggle} />
         </div>
         <div className={SidebarStyle.sectionTitle}>
           <h3 className={SidebarStyle.title}>ACCOUNT</h3>

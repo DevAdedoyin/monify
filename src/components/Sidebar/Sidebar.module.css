@@ -1,7 +1,7 @@
 /* SIDENAV CONTAINER */
 .sideNavContainer {
     height: 100vh;
-    border-right: 1px groove white;
+    border-right: 1px groove var(--border-color);
     padding-left: 1rem;
 }
 /* SIDENAV CONTAINER END */
@@ -17,6 +17,7 @@
 .titleContainer .title {
     font-family: cursive;
     font-size: 1.3rem;
+    text-align: center;
 }
 
 .hamContainer {
@@ -25,3 +26,4 @@
     justify-content: center;
 }
 /* END */
+
