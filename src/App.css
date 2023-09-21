@@ -9,6 +9,10 @@
   scrollbar-width: none;
 }
 
+*::-webkit-scrollbar{
+  display: none;
+}
+
 :root {
   --nav-font: 1rem;
   --large-font: 2rem;
