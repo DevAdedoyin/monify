@@ -7,11 +7,9 @@ function DashboardHeader() {
   return (
     <div className={DHStyle.headerContainer}>
       <div className={DHStyle.inputContainer}>
-        <input />
+        <input placeholder="Search Anything" />
       </div>
-      <div className={DHStyle.headerDetailsContainer}>
-        fwldknfwlknwlnfwlknfwlsfknvklfnvlfnvlvknwlkvnwlknvkfnvkvnkfnvknvkn
-      </div>
+      <div className={DHStyle.headerDetailsContainer}></div>
     </div>
   );
 }

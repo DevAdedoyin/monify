@@ -22,5 +22,6 @@
   /* Colors */
   --border-color: gray;
   --grey-font: rgb(168, 166, 166);
-  --lighgrey: grey
+  --lighgrey: grey;
+  --grey: rgba(70, 67, 67, 0.7);
 }
