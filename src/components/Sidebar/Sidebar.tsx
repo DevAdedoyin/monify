@@ -3,6 +3,7 @@ import NavComponents from "./NavComponents";
 import NavItems from "./NavItems";
 import SidebarStyle from "./Sidebar.module.css";
 import { FaBars } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 interface Props {
   children?: ReactNode;
@@ -50,7 +51,11 @@ export default function Sidebar({ children }: Props) {
           }
         >
           {NavItems.account.map((data, index) => {
-            return <NavComponents {...data} key={index} isOpen={isOpen} />;
+            return (
+              <NavLink to={data.path} key={index}>
+                <NavComponents {...data} isOpen={isOpen} />
+              </NavLink>
+            );
           })}
         </div>
         <hr style={{ display: isOpen ? "" : "none" }} />
@@ -73,7 +78,7 @@ export default function Sidebar({ children }: Props) {
           }
         >
           {NavItems.product.map((data, index) => {
-            return <NavComponents {...data} key={index} isOpen={isOpen} />;
+            return <NavComponents {...data} isOpen={isOpen} />;
           })}
         </div>
         <hr style={{ display: isOpen ? "" : "none" }} />
@@ -96,7 +101,7 @@ export default function Sidebar({ children }: Props) {
           }
         >
           {NavItems.admin.map((data, index) => {
-            return <NavComponents {...data} key={index} isOpen={isOpen} />;
+            return <NavComponents {...data} isOpen={isOpen} />;
           })}
         </div>
       </div>

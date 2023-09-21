@@ -4,7 +4,7 @@
     border-right: 1px groove var(--border-color);
     padding-left: 1rem;
     padding-right: 1rem;
-    width: 15%;
+    width: 17%;
     transition: all ease-in 0.2s;
 }
 
@@ -64,7 +64,7 @@
 /* HR */
 hr {
     margin: 1.4rem auto;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     color: var(--border-color);
 }
 /* HR END */

@@ -17,26 +17,31 @@ const NavItems = {
       path: "/",
       name: "Dashboard",
       icon: dashboardc,
+      id: 0,
     },
     {
       path: "/",
       name: "Updates",
       icon: updatec,
+      id: 1,
     },
     {
       path: "/",
       name: "Payment",
       icon: paymentc,
+      id: 2,
     },
     {
       path: "/",
       name: "My Order",
       icon: orderc,
+      id: 3,
     },
     {
       path: "/",
       name: "Admin Setting",
       icon: adminsc,
+      id: 4,
     },
   ],
   product: [
@@ -44,16 +49,19 @@ const NavItems = {
       path: "/",
       name: "Add New",
       icon: addnewc,
+      id: 5,
     },
     {
       path: "/",
       name: "My Products",
       icon: addproc,
+      id: 6,
     },
     {
       path: "/",
       name: "Stocks",
       icon: stocksc,
+      id: 7,
     },
   ],
   admin: [
@@ -61,16 +69,19 @@ const NavItems = {
       path: "/",
       name: "Account Setup",
       icon: setupc,
+      id: 8,
     },
     {
       path: "/",
       name: "Manage User",
       icon: managec,
+      id: 9,
     },
     {
       path: "/",
       name: "Logout",
       icon: logoutc,
+      id: 10,
     },
   ],
 };
