@@ -105,7 +105,13 @@ export default function Sidebar({ children }: Props) {
           })}
         </div>
       </div>
-      <main>{children}</main>
+      <main
+        className={
+          isOpen ? SidebarStyle.mainStyle : SidebarStyle.mainStyleClosed
+        }
+      >
+        {children}
+      </main>
     </div>
   );
 }

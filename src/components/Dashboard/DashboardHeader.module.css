@@ -1,0 +1,19 @@
+.headerContainer {
+    display: flex;
+    background-color: wheat;
+    border: 1px solid red;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.inputContainer {
+    background-color: black;
+}
+
+.headerDetailsContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: brown;
+    color: aliceblue;
+}

@@ -1,4 +1,18 @@
+/* MAIN */
+.mainStyle {
+    width: 87%;
+}
+
+.mainStyleClosed {
+    width: 95%;
+}
+/* MAIN CLOSED */
+
 /* SIDENAV CONTAINER */
+.container {
+    display: flex;
+}
+
 .sideNavContainer {
     height: 100vh;
     border-right: 1px groove var(--border-color);
