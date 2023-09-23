@@ -10,21 +10,28 @@
 .inputContainer {
     width: 50%;
     padding-left: 3rem;
+
 }
 
-input {
+.input {
     width: 50%;
     border: none;
     background-color: var(--grey);
-    padding: 0.5rem;
-    border-radius: 20px;
+    padding: 0.1rem 0.6rem;
+    border-radius: 30px;
+    color: white;
 }
 
-input::placeholder {
-    content: "Search anything";
+.input::placeholder {
+    color: white;
+    font-size: 0.4rem;
 }
 
-
+.searchIcon {
+    background-color: transparent;
+    background-size: 0px;
+    backdrop-filter: inherit;
+}
 
 .headerDetailsContainer {
     display: flex;
