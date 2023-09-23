@@ -45,12 +45,44 @@
     padding-right: 3rem;
 }
 
+.notificationContainer {
+    position: 'relative';
+    /* margin: 0px 1rem; */
+}
+
+.numOfNotification {
+    display: inline;
+    font-size: 0.5rem;
+}
+
+/* LANGUAGE OPTIONS */
+select {
+    border: none;
+    font-weight: 600
+}
+
+option {
+    font-size: var(--small-font);
+}
+
+.langOptionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+
+/* LANGUAGE OPTIONS END */
+
+/* VERTIVAL RULE */
 hr {
     width: 1.2rem;
     background-color: var(--grey-font);
-    margin: 0px 1rem;
+    margin: 0px 0.9rem;
     transform: rotate(90deg);
 }
+/* VERTICAL RULE END */
 
 /* USERNAME AND ADMIN STATUS */
 .usernameContainer {

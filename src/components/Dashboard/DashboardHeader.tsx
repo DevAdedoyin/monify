@@ -2,8 +2,9 @@ import React from "react";
 import DHStyle from "./DashboardHeader.module.css";
 import Input from "@material-ui/core/Input";
 import InputAdornment from "@material-ui/core/InputAdornment";
-import { FaSearch } from "react-icons/fa";
-import Badge from "react-badger";
+import Badge from "@material-ui/core/Badge";
+import { FaSearch, FaBell } from "react-icons/fa";
+// import Badge from "react-badger";
 
 function DashboardHeader() {
   return (
@@ -23,8 +24,20 @@ function DashboardHeader() {
         />
       </div>
       <div className={DHStyle.headerDetailsContainer}>
-        <div className={DHStyle.notificationStyle}>{/* <Badge /> */}</div>
-        <div>
+        <div
+          className={DHStyle.notificationContainer}
+          style={{ position: "relative" }}
+        >
+          <Badge
+            badgeContent={4}
+            variant="dot"
+            color="secondary"
+            // style={{ height: "1rem", width: "1rem" }}
+          >
+            <FaBell color="action" />
+          </Badge>
+        </div>
+        <div className={DHStyle.langOptionContainer}>
           <select>
             <option>EN</option>
             <option>FR</option>
