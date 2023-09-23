@@ -24,8 +24,15 @@ function DashboardHeader() {
       </div>
       <div className={DHStyle.headerDetailsContainer}>
         <div className={DHStyle.notificationStyle}>{/* <Badge /> */}</div>
-        <div>{/* <p>EN</p> */}</div>
-        <div className={DHStyle.vr}></div>
+        <div>
+          <select>
+            <option>EN</option>
+            <option>FR</option>
+            <option>ES</option>
+            <option>DE</option>
+          </select>
+        </div>
+        <hr />
         <div className={DHStyle.usernameContainer}>
           <p className={DHStyle.username}>Adedoyin Idris</p>
           <p className={DHStyle.rank}>Super Admin</p>

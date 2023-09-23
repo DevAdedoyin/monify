@@ -45,6 +45,14 @@
     padding-right: 3rem;
 }
 
+hr {
+    width: 1.2rem;
+    background-color: var(--grey-font);
+    margin: 0px 1rem;
+    transform: rotate(90deg);
+}
+
+/* USERNAME AND ADMIN STATUS */
 .usernameContainer {
     display: flex;
     flex-direction: column;
@@ -63,6 +71,7 @@
     color: var(--grey-font);
 }
 
+/* USERNAME AND ADMIN STATUS END */
 
 .profilePicContainer {
     height: 1.8rem;
