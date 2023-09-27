@@ -76,7 +76,7 @@ option {
 /* LANGUAGE OPTIONS END */
 
 /* VERTIVAL RULE */
-hr {
+.hr {
     width: 1.2rem;
     background-color: var(--grey-font);
     margin: 0px 0.9rem;

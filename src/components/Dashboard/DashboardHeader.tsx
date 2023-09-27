@@ -28,12 +28,7 @@ function DashboardHeader() {
           className={DHStyle.notificationContainer}
           style={{ position: "relative" }}
         >
-          <Badge
-            badgeContent={4}
-            variant="dot"
-            color="secondary"
-            // style={{ height: "1rem", width: "1rem" }}
-          >
+          <Badge badgeContent={4} variant="dot" color="secondary">
             <FaBell color="action" />
           </Badge>
         </div>
@@ -45,7 +40,7 @@ function DashboardHeader() {
             <option>DE</option>
           </select>
         </div>
-        <hr />
+              <hr className={DHStyle.hr} />
         <div className={DHStyle.usernameContainer}>
           <p className={DHStyle.username}>Adedoyin Idris</p>
           <p className={DHStyle.rank}>Super Admin</p>
