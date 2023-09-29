@@ -38,6 +38,7 @@ function DashboardHeader() {
             <option>FR</option>
             <option>ES</option>
             <option>DE</option>
+            <option>CHI</option>
           </select>
         </div>
               <hr className={DHStyle.hr} />
