@@ -1,0 +1,5 @@
+.OverviewTabContainer {
+    display: flex;
+    width: 100%;
+    background-color: brown;
+}
