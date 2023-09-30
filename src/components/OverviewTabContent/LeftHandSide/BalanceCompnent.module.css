@@ -1,0 +1,57 @@
+.balanceItemContainer {
+    width: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+
+}
+
+.iconContainer {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-right: 1.8rem;
+}
+
+.balIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* Balance Rate */
+.balanceRateContainer {
+    background-color: transparent;
+
+}
+
+.balTitle {
+    color: black;
+    font-weight: bold;
+    font-size: var(--small-font);
+    background-color: transparent;
+    margin-bottom: 0.4rem;
+}
+
+.balance {
+    background-color: transparent;
+    color: black;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balRate {
+    margin-left: 0.4rem;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.45rem;
+    padding: 0.2rem 0.45rem;
+}
+/* Balance Rate End */

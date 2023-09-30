@@ -10,18 +10,20 @@ const Balance = (props: Props) => {
     {
       title: "Available Balance",
       icon: avbal,
-      balance: "£20,435",
+      balance: "£20,435.23",
       rate: "↑ 8.0",
+      color: "#00FF7F",
     },
     {
       title: "Pending Balance",
       icon: penbal,
-      balance: "£3,478",
+      balance: "£3,478.43",
       rate: "↓ 2.0",
+      color: "plum",
     },
   ];
   return (
-    <div>
+    <div style={{ width: "60%", display: "flex", justifyContent: "space-evenly", paddingLeft: "2rem"}}>
       {balanceContent.map((data, index) => {
         return (
           <BalanceComponent
@@ -29,6 +31,7 @@ const Balance = (props: Props) => {
             icon={data.icon}
             balance={data.balance}
             rate={data.rate}
+            color={data.color}
           />
         );
       })}

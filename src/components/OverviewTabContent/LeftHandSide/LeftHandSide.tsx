@@ -6,9 +6,7 @@ type Props = {};
 
 const LeftHandSide = (props: Props) => {
   return (
-    <div>
       <Balance />
-    </div>
   );
 };
 
