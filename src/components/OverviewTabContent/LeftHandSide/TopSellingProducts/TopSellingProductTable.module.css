@@ -1,0 +1,58 @@
+.tableHeaderContainer {
+    background-color: transparent;
+}
+
+table {
+    width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+
+.tableHeader {
+    background-color: transparent;
+}
+
+.tr {
+    background-color: transparent;
+}
+
+td {
+    background-color: transparent;
+}
+
+
+.tableHeaderRow {
+    background-color: rgb(29, 28, 28);
+}
+
+th {
+    background-color: transparent   ;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: var(--small-font);
+    color: var(--grey-font);
+    padding: 0.5rem;
+}
+
+.headerPos1 {
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.prdName {
+    background-color: transparent;
+    margin-left: 0.9rem;
+}
+
+.checkInput {
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: black;
+    border: var(--grey-font);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
