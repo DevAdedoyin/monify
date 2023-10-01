@@ -1,0 +1,33 @@
+.sgcontainer {
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sgAmountContainer {
+    background-color: transparent;
+}
+
+.sgTitle {
+    background-color: transparent;
+    font-size: var(--small-font);
+    color: var(--grey-font);
+}
+
+.sgAmount {
+    background-color: transparent;
+}
+.sgReportContainer {
+    background-color: plum;
+    margin-right: 2rem;
+    border-radius: 15px;
+}
+
+.sgReport {
+    background-color: transparent;
+    color: black;
+    font-size: var(--small-font);
+    font-weight: 700;
+    padding: 0.3rem 0.4rem;
+}
