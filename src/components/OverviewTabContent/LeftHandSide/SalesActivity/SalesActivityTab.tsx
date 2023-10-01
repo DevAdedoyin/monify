@@ -11,7 +11,7 @@ const SalesActivityTab = (props: Props) => {
       <div className={SATabStyle.tabSATContainer}>
         <p className={SATabStyle.tabSAT}>All Time</p>
         <p className={SATabStyle.tabSAT1}>1Month</p>
-        <p className={SATabStyle.tabSAT}>54 Days</p>
+        <p className={SATabStyle.tabSAT}>14 Days</p>
       </div>
     </div>
   );

@@ -14,6 +14,8 @@
 
 .satTitle {
     background-color: transparent;
+    font-size: var(--medium-font);
+    font-weight: bold;
 }
 
 .tabSATContainer {
@@ -21,14 +23,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .tabSAT {
     background-color: transparent;
-    
+    font-size: var(--small-font);
+    color: var(--grey-font);
+    margin-right: 2rem;
 }
 
 .tabSAT1 {
     background-color: transparent;
+    font-size: var(--small-font);
+    text-decoration: underline;
+    margin-right: 2rem;
 }
