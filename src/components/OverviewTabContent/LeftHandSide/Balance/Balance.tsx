@@ -1,7 +1,7 @@
 import React from "react";
 import BalanceComponent from "./BalanceComponent";
-import avbal from "../../../assets/images/avbal.png";
-import penbal from "../../../assets/images/penbal.png";
+import avbal from "../../../../assets/images/avbal.png";
+import penbal from "../../../../assets/images/penbal.png";
 
 type Props = {};
 
@@ -23,7 +23,14 @@ const Balance = (props: Props) => {
     },
   ];
   return (
-    <div style={{ width: "60%", display: "flex", justifyContent: "space-evenly", paddingLeft: "2rem"}}>
+    <div
+      style={{
+        width: "100%",
+        display: "flex",
+        justifyContent: "space-evenly",
+        paddingLeft: "2rem",
+      }}
+    >
       {balanceContent.map((data, index) => {
         return (
           <BalanceComponent

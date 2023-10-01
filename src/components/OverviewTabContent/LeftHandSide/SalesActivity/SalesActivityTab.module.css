@@ -1,0 +1,34 @@
+.satContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+
+}
+
+.headerTitleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.satTitle {
+    background-color: transparent;
+}
+
+.tabSATContainer {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tabSAT {
+    background-color: transparent;
+    
+}
+
+.tabSAT1 {
+    background-color: transparent;
+}

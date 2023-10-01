@@ -1,12 +1,16 @@
 import React from "react";
-import BalanceComponent from "./BalanceComponent";
-import Balance from "./Balance";
+import Balance from "./Balance/Balance";
+import SalesActivity from "./SalesActivity/SalesActivity";
+import lhsStyle from "./LeftHandSide.module.css";
 
 type Props = {};
 
 const LeftHandSide = (props: Props) => {
   return (
+    <div className={lhsStyle.lhsContainer}>
       <Balance />
+      <SalesActivity />
+    </div>
   );
 };
 
