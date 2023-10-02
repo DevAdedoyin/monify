@@ -6,7 +6,14 @@ type Props = {};
 
 const TopSellingProductTable = (props: Props) => {
   const tableData = {
-    headerTitle: ["PRODUCT NAME", "DATE", "TRANSACTION ID", "AMOUNT", "SALES"],
+    headerTitle: [
+      <div className={tspTable.checkInput}></div>,
+      "PRODUCT NAME",
+      "DATE",
+      "TRANSACTION ID",
+      "AMOUNT",
+      "SALES",
+    ],
     tableItem: [
       {
         icon: FaPaypal,
@@ -17,6 +24,7 @@ const TopSellingProductTable = (props: Props) => {
         transactionId: "Pay-3083-23",
         amount: "12,409 GBP",
         sales: "Delivered",
+        color: "plum",
       },
       {
         icon: FaCreditCard,
@@ -27,6 +35,7 @@ const TopSellingProductTable = (props: Props) => {
         transactionId: "Mer-1249-23",
         amount: "8,456 GBP",
         sales: "Delivered",
+        color: "#00FF7F",
       },
     ],
   };
@@ -37,14 +46,7 @@ const TopSellingProductTable = (props: Props) => {
           {tableData.headerTitle.map((data, index) => {
             return (
               <th className={tspTable.tableHeader} key={index}>
-                {index === 0 ? (
-                  <div className={tspTable.headerPos1}>
-                    <div className={tspTable.checkInput}></div>
-                    <p className={tspTable.prdName}>{data}</p>
-                  </div>
-                ) : (
-                  data
-                )}
+                {data}
               </th>
             );
           })}
@@ -53,21 +55,43 @@ const TopSellingProductTable = (props: Props) => {
           return (
             <tr key={index}>
               <td>
-                <div>
-                  <data.icon />
-                  <p>{data.paymentTitle}</p>
-                  <p>{data.transactionType}</p>
+                <div className={tspTable.checkInput}></div>
+              </td>
+              <td>
+                <div className={tspTable.prdNameContainer}>
+                  <div
+                    style={{ backgroundColor: data.color }}
+                    className={tspTable.tspIconBackground}
+                  >
+                    <data.icon
+                      color="black"
+                      fill="black"
+                      style={{
+                        height: "0.7rem",
+                        width: "0.7rem",
+                        backgroundColor: "transparent",
+                      }}
+                    />
+                  </div>
+                  <div className={tspTable.tspPaymentContainer}>
+                    <p className={tspTable.paymentTitle}>{data.paymentTitle}</p>
+                    <p className={tspTable.transactionType}>
+                      {data.transactionType}
+                    </p>
+                  </div>
                 </div>
               </td>
               <td>
-                <div>
-                  <p>{data.date}</p>
-                  <p>{data.time}</p>
+                <div className={tspTable.dateTimeContainer}>
+                  <p className={tspTable.tspDate}>{data.date}</p>
+                  <p className={tspTable.tspTime}>{data.time}</p>
                 </div>
               </td>
-              <td>{data.transactionId}</td>
-              <td>{data.amount}</td>
-              <td>{data.sales}</td>
+              <td className={tspTable.transactionId}>{data.transactionId}</td>
+              <td className={tspTable.tspAmount}>{data.amount}</td>
+              <td>
+                <p className={tspTable.tspSales}>{data.sales}</p>
+              </td>
             </tr>
           );
         })}

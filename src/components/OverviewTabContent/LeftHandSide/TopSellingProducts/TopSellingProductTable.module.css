@@ -8,30 +8,23 @@ table {
     border-collapse: collapse;
 }
 
-.tableHeader {
+
+tr {
     background-color: transparent;
 }
-
-.tr {
-    background-color: transparent;
-}
-
-td {
-    background-color: transparent;
-}
-
 
 .tableHeaderRow {
     background-color: rgb(29, 28, 28);
 }
 
 th {
-    background-color: transparent   ;
+    background-color: transparent;
+    text-align: left;
     margin-left: 0px;
     margin-right: 0px;
-    font-size: var(--small-font);
+    font-size: 0.6rem;
     color: var(--grey-font);
-    padding: 0.5rem;
+    padding: 0.8rem 0rem;
 }
 
 .headerPos1 {
@@ -55,4 +48,84 @@ th {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+td {
+    background-color: transparent;
+    text-align: left;
+    padding: 1rem 0px;
+}
+
+.prdNameContainer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: transparent;
+}
+
+.tspIconBackground {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 40px;
+}
+
+
+.paymentTitle {
+    font-size: var(--small-font);
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.transactionType {
+    font-size: 0.5rem;
+    color: var(--grey-font);
+    background-color: transparent;
+}
+
+.tspPaymentContainer {
+    background-color: transparent;
+}
+
+.dateTimeContainer {
+    background-color: transparent;
+}
+
+.tspDate {
+    background-color: transparent;
+    font-size: var(--small-font);
+    font-weight: bold;
+}
+
+.tspTime {
+    background-color: transparent;
+    font-size: 0.5rem;
+    color: var(--grey-font);
+    font-weight: bold;
+}
+
+.transactionId {
+    background-color: transparent;
+    font-size: var(--small-font);
+    font-weight: bold;
+}
+
+.tspAmount {
+    background-color: transparent;
+    font-size: var(--small-font);
+    font-weight: bold;
+}
+
+.tspSales {
+    width: 50%;
+    text-align: center;
+    padding: 0.2rem;
+    color: var(--grey-font);
+    background-color: black;
+    font-size: 0.5rem;
+    font-weight: bold;
+    border-radius: 15px;
 }
