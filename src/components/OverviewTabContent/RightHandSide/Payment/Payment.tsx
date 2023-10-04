@@ -1,39 +1,60 @@
 import { Switch } from "@material-ui/core";
-import React from "react";
+import React, { useState } from "react";
+import PaymentStyle from "./Payment.module.css";
+import { FaAngleDown } from "react-icons/fa";
+import ReactSwitch from "react-switch";
 
 type Props = {};
 
 const Payment = (props: Props) => {
-  return (
-    <div>
-      <div>
-        <p>Enter Amount</p>
-      </div>
-      <div>
-        <h3>£4,589.12</h3>
-      </div>
+  const [checked, setChecked] = useState(true);
+  const handleChange = (nextChecked: boolean) => {
+    setChecked(nextChecked);
+  };
 
-      <div>
-        <div>
-          <p>Pay With</p>
+  return (
+    <div className={PaymentStyle.paymentContainer}>
+      <div className={PaymentStyle.enterAmountContainer}>
+        <p className={PaymentStyle.enterAmount}>Enter Amount</p>
+      </div>
+      <div className={PaymentStyle.amountContainer}>
+        <h2 className={PaymentStyle.amountEnterdTxt}>£4,589.12</h2>
+      </div>
+      <div className={PaymentStyle.creditCardContainer}>
+        <div className={PaymentStyle.payWithContainer}>
+          <p className={PaymentStyle.payWithTxt}>Pay With</p>
         </div>
-        <div>
-          <div>
-            <Switch
-              size="small"
-              defaultChecked
-              style={{
-                accentColor: "pink",
-                color: "pink",
-                backgroundColor: "transparent",
-              }}
+        <div className={PaymentStyle.paymentOptionContainer}>
+          <div className={PaymentStyle.switchCardContainer}>
+            <ReactSwitch
+              onChange={handleChange}
+              checked={checked}
+              className={PaymentStyle.reactSwitch}
+              height={15}
+              width={30}
+              onColor="#AA336A"
+              onHandleColor="#FFF"
+              handleDiameter={15}
+              uncheckedIcon={false}
+              checkedIcon={false}
             />
-            <p>Card 5894 **** **** ****</p>
+            <p className={PaymentStyle.cardDetailsTxt}>
+              Card 5894 **** **** ****
+            </p>
           </div>
-          <div>
-            <p>Withdraw Money</p>
-          </div>
+          <FaAngleDown
+            style={{
+              width: "0.5rem",
+              height: "0.5rem",
+              display: "flex",
+              justifyContent: "right",
+              alignItems: "center",
+            }}
+          />
         </div>
+      </div>
+      <div className={PaymentStyle.withdrawContainer}>
+        <p className={PaymentStyle.withdrawTxt}>Withdraw Money</p>
       </div>
     </div>
   );

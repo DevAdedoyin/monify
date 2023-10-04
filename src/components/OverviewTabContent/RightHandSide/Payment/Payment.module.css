@@ -1,0 +1,80 @@
+.paymentContainer {
+    background-color: var(--grey);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.enterAmountContainer {
+    background-color: transparent;
+}
+
+.enterAmount {
+    background-color: transparent;
+    font-size: var(--small-font);
+    color: var(--grey-font);
+}
+
+.amountContainer {
+    background-color: transparent;
+    margin-bottom: 2rem;
+}
+
+.amountEnterdTxt {
+    background-color: transparent;
+}
+
+.creditCardContainer {
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.payWithContainer {
+    background-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+.payWithTxt {
+    font-size: var(--small-font);
+    color: var(--grey-font);
+}
+
+.paymentOptionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.switchCardContainer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: transparent;
+}
+
+.cardDetailsTxt {
+    font-weight: bold;
+    font-size: var(--small-font);
+    background-color: transparent;
+    margin-left: 0.2rem;
+}
+
+.withdrawContainer {
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.withdrawTxt {
+    background-color: transparent;
+    color: black;
+    font-size: var(--small-font);
+    padding: 0.6rem 0rem;
+}
+
+.reactSwitch {
+    color: pink;
+}
