@@ -25,10 +25,10 @@ const Balance = (props: Props) => {
   return (
     <div
       style={{
-        width: "100%",
+        width: "95%",
         display: "flex",
         justifyContent: "space-evenly",
-        paddingLeft: "2rem",
+        marginLeft: "3rem",
       }}
     >
       {balanceContent.map((data, index) => {
