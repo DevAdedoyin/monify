@@ -11,6 +11,7 @@
 /* SIDENAV CONTAINER */
 .container {
     display: flex;
+    /* position: sticky; */
 }
 
 .sideNavContainer {

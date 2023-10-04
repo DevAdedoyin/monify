@@ -1,0 +1,146 @@
+.salesDataContainer {
+    background-color: var(--grey);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.salesDataTxt {
+    background-color: transparent;
+    margin-bottom: 0.7rem;
+}
+
+.yearContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    margin-bottom: 0.2rem;
+}
+
+.yearHeader {
+    background-color: transparent;
+    font-size: var(--small-font);
+    color: var(--grey-font);
+    font-weight: bold;
+}
+
+.year {
+    background-color: transparent;
+    font-size: var(--small-font);
+    font-weight: bold;
+}
+
+.salesDataRateContainer {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.ratePrice {
+    font-size: small;
+    font-weight: bold;
+    background-color: transparent;
+    margin-right: 0.3rem;
+}
+
+.rate {
+    background-color: transparent;
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: green;
+}
+
+.containerOfColors {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 2rem;
+}
+
+.dayOfTheWeek {
+    background-color: transparent;
+    font-size: 0.5rem;
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+
+.sunContainer {
+    width: 18%;
+    background-color: transparent;
+}
+
+.sunColorCode{
+    background-color: #00FF7F;;
+    height: 1rem;
+
+}
+
+.monContainer {
+    width: 5%;
+    background-color: transparent;
+}
+
+.monColorCode{
+    background-color: green;
+    height: 1rem;
+}
+
+.tueContainer {
+    width: 13%;
+    background-color: transparent;
+}
+
+.tueColorCode{
+    background-color: plum;
+    height: 1rem;
+}
+
+.wedContainer {
+    width: 21%;
+    background-color: transparent;
+}
+
+.wedColorCode{
+    background-color: orangered;
+    height: 1rem;
+}
+
+.thuContainer {
+    width: 16%;
+    background-color: transparent;
+}
+
+.thuColorCode{
+    background-color: goldenrod;
+    height: 1rem;
+}
+
+.friContainer {
+    width: 5%;
+    background-color: transparent;
+}
+
+.friColorCode {
+    background-color: palevioletred;
+    height: 1rem;
+}
+
+.satContainer {
+    width: 10%;
+    background-color: transparent;
+}
+
+.satColorCode {
+    background-color: gold;
+    height: 1rem;
+}
+
+.yearRange {
+    background-color: transparent;
+    font-size: 0.5rem;
+    color: var(--grey-font);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.7rem;
+}
