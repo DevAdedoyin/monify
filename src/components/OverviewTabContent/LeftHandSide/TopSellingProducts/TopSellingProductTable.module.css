@@ -17,7 +17,7 @@ tr {
     background-color: rgb(29, 28, 28);
 }
 
-th {
+.tableHeader {
     background-color: transparent;
     text-align: left;
     margin-left: 0px;
@@ -42,13 +42,34 @@ th {
 .checkInput {
     height: 0.5rem;
     width: 0.5rem;
+    margin-right: 0.7rem;
     background-color: black;
-    border: var(--grey-font);
+    border: 1px solid rgb(63, 62, 62);
     border-radius: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.checkInputIndex1Container {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkInputIndex1InnerContainer {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: transparent;
+}
+
+.headerData {
+    background-color: transparent;
+}
+
 
 td {
     background-color: transparent;
@@ -58,19 +79,31 @@ td {
 
 .prdNameContainer {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    /* padding-left: 3rem; */
+    /* background-color: blue; */
+}
+
+.prdNameInnerContainer {
+    width: 50%;
+    /* background-color: brown; */
+    display: flex;
     justify-content: left;
     align-items: center;
     background-color: transparent;
 }
 
 .tspIconBackground {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.6rem;
+    height: 1.6rem;
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
     border-radius: 40px;
+    margin-right: 0.5rem;
 }
 
 

@@ -6,14 +6,7 @@ type Props = {};
 
 const TopSellingProductTable = (props: Props) => {
   const tableData = {
-    headerTitle: [
-      <div className={tspTable.checkInput}></div>,
-      "PRODUCT NAME",
-      "DATE",
-      "TRANSACTION ID",
-      "AMOUNT",
-      "SALES",
-    ],
+    headerTitle: ["PRODUCT NAME", "DATE", "TRANSACTION ID", "AMOUNT", "SALES"],
     tableItem: [
       {
         icon: FaPaypal,
@@ -46,38 +39,56 @@ const TopSellingProductTable = (props: Props) => {
           {tableData.headerTitle.map((data, index) => {
             return (
               <th className={tspTable.tableHeader} key={index}>
-                {data}
+                {index === 0 ? (
+                  <div className={tspTable.checkInputIndex1Container}>
+                    <div className={tspTable.checkInputIndex1InnerContainer}>
+                      <div className={tspTable.checkInput}></div>
+                      {data}
+                    </div>
+                  </div>
+                ) : (
+                  <p className={tspTable.headerData}>{data}</p>
+                )}
               </th>
             );
           })}
         </tr>
         {tableData.tableItem.map((data, index) => {
           return (
-            <tr key={index}>
-              <td>
-                <div className={tspTable.checkInput}></div>
-              </td>
+            <tr
+              key={index}
+              style={{
+                borderBottom:
+                  index === 0 ? "1px solid rgba(70, 67, 67, 0.6)" : "",
+              }}
+            >
               <td>
                 <div className={tspTable.prdNameContainer}>
-                  <div
-                    style={{ backgroundColor: data.color }}
-                    className={tspTable.tspIconBackground}
-                  >
-                    <data.icon
-                      color="black"
-                      fill="black"
-                      style={{
-                        height: "0.7rem",
-                        width: "0.7rem",
-                        backgroundColor: "transparent",
-                      }}
-                    />
-                  </div>
-                  <div className={tspTable.tspPaymentContainer}>
-                    <p className={tspTable.paymentTitle}>{data.paymentTitle}</p>
-                    <p className={tspTable.transactionType}>
-                      {data.transactionType}
-                    </p>
+                  <div className={tspTable.prdNameInnerContainer}>
+                    <div className={tspTable.checkInput}></div>
+                    <div
+                      style={{ backgroundColor: data.color }}
+                      className={tspTable.tspIconBackground}
+                    >
+                      <data.icon
+                        color="black"
+                        fill="black"
+                        style={{
+                          height: "0.7rem",
+                          width: "0.7rem",
+                          backgroundColor: "transparent",
+                        }}
+                      />
+                    </div>
+
+                    <div className={tspTable.tspPaymentContainer}>
+                      <p className={tspTable.paymentTitle}>
+                        {data.paymentTitle}
+                      </p>
+                      <p className={tspTable.transactionType}>
+                        {data.transactionType}
+                      </p>
+                    </div>
                   </div>
                 </div>
               </td>
