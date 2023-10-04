@@ -2,6 +2,7 @@
     background-color: var(--grey);
     padding: 1rem;
     border-radius: 10px;
+    margin-bottom: 0.7rem;
 }
 
 .enterAmountContainer {
@@ -25,13 +26,13 @@
 
 .creditCardContainer {
     border-radius: 10px;
-    padding: 0.5rem;
+    padding: 0.9rem 0.6rem;
     margin-bottom: 0.5rem;
 }
 
 .payWithContainer {
     background-color: transparent;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
 }
 
 .payWithTxt {

@@ -1,0 +1,61 @@
+.revenueContainer {
+    background-color: var(--grey);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.productAndRevenueContainer {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.totalProductContainer {
+    background-color: transparent;
+}
+
+.totalProductHeader {
+    background-color: transparent;
+    font-size: var(--small-font);
+    color: var(--grey-font);
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.totalProduct {
+    background-color: transparent;
+    font-weight: bold;
+    font-size: large;
+}
+
+.revenueColorCodeContainer {
+    display: flex;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-top: 1.5rem;
+}
+
+.greenCode {
+    width: 40%;
+    height: 1rem;
+    background-color: #00FF7F;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.goldenYellowCode {
+    width: 45%;
+    height: 1rem;
+    background-color: goldenrod;
+}
+
+.blackCode {
+    width: 15%;
+    height: 1rem;
+    background-color: black;
+}
