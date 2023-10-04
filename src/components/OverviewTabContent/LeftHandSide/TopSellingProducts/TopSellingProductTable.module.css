@@ -59,7 +59,7 @@ tr {
 }
 
 .checkInputIndex1InnerContainer {
-    width: 50%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -87,7 +87,7 @@ td {
 }
 
 .prdNameInnerContainer {
-    width: 50%;
+    width: 90%;
     /* background-color: brown; */
     display: flex;
     justify-content: left;
