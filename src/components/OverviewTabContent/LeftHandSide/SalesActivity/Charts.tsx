@@ -13,34 +13,26 @@ type Props = {};
 
 const Charts = (props: Props) => {
   const data = [
-    { name: "2017", react: 34, angular: 43, vue: 60 },
-    { name: "2018", react: 44, angular: 42, vue: 50 },
-    { name: "2019", react: 51, angular: 41, vue: 54 },
-    { name: "2020", react: 60, angular: 37, vue: 28 },
-    { name: "2021", react: 51, angular: 31, vue: 27 },
-    { name: "2022", react: 95, angular: 44, vue: 49 },
+    { name: "Jan", amount: 10 },
+    { name: "Feb", amount: 25 },
+    { name: "Mar", amount: 20 },
+    { name: "Apr", amount: 45 },
+    { name: "May", amount: 50 },
+    { name: "Jun", amount: 40 },
+    { name: "Jul", amount: 20 },
+    { name: "Aug", amount: 10 },
+    { name: "Sept", amount: 12 },
+    { name: "Oct", amount: 55 },
   ];
 
   return (
     <div>
-      <LineChart width={600} height={300} data={data}>
+      <LineChart width={800} height={300} data={data}>
         <Line
           type="monotone"
-          dataKey="react"
-          stroke="#2196f3"
-          strokeWidth={3}
-        />
-        <Line
-          type="monotone"
-          dataKey="react"
-          stroke="#f44236"
-          strokeWidth={3}
-        />
-        <Line
-          type="monotone"
-          dataKey="react"
-          stroke="#ffca29"
-          strokeWidth={3}
+          dataKey="amount"
+          stroke="#00FF7F"
+          strokeWidth={2}
         />
         <CartesianGrid stroke="ccc" />
         <XAxis dataKey="name" />
