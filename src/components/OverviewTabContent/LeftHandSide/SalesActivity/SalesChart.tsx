@@ -35,9 +35,18 @@ const labels = [
 ];
 
 const options = {
-  plugins: {
-    legend: {
-      position: "bottom",
+  scales: {
+    x: {
+      grid: {
+        display: false, // Hide vertical grid lines
+      },
+    },
+
+    y: {
+      grid: {
+        color: "rgba(0, 0, 255, 0.1)", // Change the color of horizontal grid lines
+      },
+      beginAtZero: true, // Start the Y-axis at zero
     },
   },
 };
@@ -46,10 +55,11 @@ export const data = {
   labels,
   datasets: [
     {
-      label: "React",
-      data: [10, 20, 15, 35, 9, 45, 20, 49, 23, 45],
-      backgroundColor: "#2196F3",
-      borderColor: "#2196F3",
+      label: "Sales($)",
+      data: [10, 25, 20, 45, 50, 45, 40, 20, 10, 12, 55],
+      backgroundColor: "transparent",
+      borderColor: "#00FF7F",
+      tension: 0.4,
     },
   ],
 };
@@ -58,8 +68,19 @@ type Props = {};
 
 function SalesChart({}: Props) {
   return (
-    <div style={{ width: 600, height: 300 }}>
-      <Line data={data} />
+    <div
+      style={{
+        width: "100%",
+        height: 300,
+        display: "block",
+        backgroundColor: "transparent",
+      }}
+    >
+      <Line
+        options={options}
+        data={data}
+        style={{ backgroundColor: "transparent" }}
+      />
     </div>
   );
 }

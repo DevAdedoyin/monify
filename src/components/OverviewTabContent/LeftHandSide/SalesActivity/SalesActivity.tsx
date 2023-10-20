@@ -12,7 +12,7 @@ const SalesActivity = (props: Props) => {
     <div className={SalesActivityStyle.salesContainer}>
       <SalesActivityTab />
       <SalesGenerated />
-      <Charts />
+      <SalesChart />
     </div>
   );
 };
