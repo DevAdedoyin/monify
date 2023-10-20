@@ -43,9 +43,15 @@ const options = {
     },
 
     y: {
+      border: { dash: [4, 4] },
       grid: {
-        color: "rgba(0, 0, 255, 0.1)", // Change the color of horizontal grid lines
+        color: "grey", // Change the color of horizontal grid lines
+        tickWidth: 2,
+        tickBorderDash: [2, 3],
+        tickLength: 10,
+        offset: true,
       },
+      //   borderDash: [10, 10],
       beginAtZero: true, // Start the Y-axis at zero
     },
   },
@@ -55,7 +61,7 @@ export const data = {
   labels,
   datasets: [
     {
-      label: "Sales($)",
+      label: "Sales($ thousands)",
       data: [10, 25, 20, 45, 50, 45, 40, 20, 10, 12, 55],
       backgroundColor: "transparent",
       borderColor: "#00FF7F",
