@@ -10,6 +10,7 @@ import {
   Legend,
 } from "chart.js";
 import { Line } from "react-chartjs-2";
+import salesChartStyle from "./SalesChart.module.css";
 
 ChartJS.register(
   CategoryScale,
@@ -38,14 +39,14 @@ const options = {
   scales: {
     x: {
       grid: {
-        display: false, // Hide vertical grid lines
+        display: false,
       },
     },
 
     y: {
       border: { dash: [4, 4] },
       grid: {
-        color: "grey", // Change the color of horizontal grid lines
+        color: "grey",
         tickWidth: 2,
         tickBorderDash: [2, 3],
         tickLength: 10,
@@ -66,6 +67,7 @@ export const data = {
       backgroundColor: "transparent",
       borderColor: "#00FF7F",
       tension: 0.4,
+      //   borderWidth: "100%",
     },
   ],
 };
@@ -74,14 +76,7 @@ type Props = {};
 
 function SalesChart({}: Props) {
   return (
-    <div
-      style={{
-        width: "100%",
-        height: 300,
-        display: "block",
-        backgroundColor: "transparent",
-      }}
-    >
+    <div className={salesChartStyle.salesChartContainer}>
       <Line
         options={options}
         data={data}
