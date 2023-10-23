@@ -40,20 +40,21 @@ const options = {
     x: {
       grid: {
         display: false,
-      },
+          },
+
     },
 
     y: {
       border: { dash: [4, 4] },
       grid: {
-        color: "grey",
+        color: "rgb(168, 166, 166)",
         tickWidth: 2,
         tickBorderDash: [2, 3],
         tickLength: 10,
         offset: true,
       },
       //   borderDash: [10, 10],
-      beginAtZero: true, // Start the Y-axis at zero
+      beginAtZero: true,
     },
   },
 };

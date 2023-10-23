@@ -2,6 +2,7 @@
     background-color: var(--grey);
     padding: 1rem;
     border-radius: 10px;
+    margin-bottom: 0.7rem;
 }
 
 .salesDataTxt {
