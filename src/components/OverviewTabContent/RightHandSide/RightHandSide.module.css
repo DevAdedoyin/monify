@@ -18,7 +18,8 @@
 .printTxt {
     background-color: transparent;
     color: black;
-    font-weight: 600;
-    font-style: italic;
+    font-weight: 700;
+    font-size: 0.75rem;
+    /* font-style: italic; */
     margin-left: 0.5rem;
 }
