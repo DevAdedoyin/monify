@@ -2,8 +2,11 @@ import React from "react";
 import { FaAngleUp } from "react-icons/fa";
 import SalesStyle from "./SalesData.module.css";
 
-
-type Props = {};
+type Props = {
+  year: string;
+  amount: string;
+  rate: string;
+};
 
 const SalesData = (props: Props) => {
   return (
@@ -11,11 +14,11 @@ const SalesData = (props: Props) => {
       <h3 className={SalesStyle.salesDataTxt}>Sales Data</h3>
       <div className={SalesStyle.yearContainer}>
         <p className={SalesStyle.yearHeader}>Yearly</p>
-        <p className={SalesStyle.year}>2023</p>
+        <p className={SalesStyle.year}>{props.year}</p>
       </div>
       <div className={SalesStyle.salesDataRateContainer}>
-        <p className={SalesStyle.ratePrice}>£40.94 USD</p>
-        <p className={SalesStyle.rate}>+2.54</p>
+        <p className={SalesStyle.ratePrice}>{props.amount}</p>
+        <p className={SalesStyle.rate}>{props.rate}</p>
 
         <FaAngleUp
           className={SalesStyle.salesIconColor}

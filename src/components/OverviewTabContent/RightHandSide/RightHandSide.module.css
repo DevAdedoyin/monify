@@ -15,6 +15,10 @@
     border-radius: 10px;
 }
 
+.analyseButtonContainer:hover {
+    cursor: pointer;
+}
+
 .printTxt {
     background-color: transparent;
     color: black;
