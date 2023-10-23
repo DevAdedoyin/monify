@@ -1,35 +1,51 @@
 /* MAIN */
 .mainStyle {
-    width: 87%;
+    width: 89%;
+    margin-left: 12%;
 }
 
 .mainStyleClosed {
-    width: 95%;
+    width: 98%;
+    margin-left: 5%;
 }
 /* MAIN CLOSED */
 
 /* SIDENAV CONTAINER */
 .container {
     display: flex;
-    /* position: sticky; */
 }
 
 .sideNavContainer {
-    height: 100vh;
     border-right: 1px groove var(--border-color);
     padding-left: 1rem;
     padding-right: 1rem;
-    width: 17%;
+    width: 12%;
     transition: all ease-in 0.2s;
 }
 
+.sideNavContainerOpen {
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+    border-right: 1px groove var(--border-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 12%;
+    transition: all ease-in 0.2s;
+    top: 0;
+}
+
 .sideNavContainerClosed {
+    top: 0;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
     height: 100vh;
     width: 5%;
     border-right: 1px groove var(--border-color);
     padding-left: 1rem;
     padding-right: 1rem;
-    transition: all ease-in 0.3s;
+    transition: all ease-in 0.2s;
 }
 /* SIDENAV CONTAINER END */
 

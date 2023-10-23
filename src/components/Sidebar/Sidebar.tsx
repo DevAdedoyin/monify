@@ -19,7 +19,7 @@ export default function Sidebar({ children }: Props) {
       <div
         className={
           isOpen
-            ? SidebarStyle.sideNavContainer
+            ? `${SidebarStyle.sideNavContainer} ${SidebarStyle.sideNavContainerOpen}`
             : SidebarStyle.sideNavContainerClosed
         }
       >
