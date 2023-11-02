@@ -67,3 +67,10 @@
         margin-bottom: 0.8rem;
     }
 }
+
+@media (max-width: 1080px) {
+    .revenueContainer {
+        padding: 0.8rem;
+        margin-bottom: 0.65rem;
+    }
+}

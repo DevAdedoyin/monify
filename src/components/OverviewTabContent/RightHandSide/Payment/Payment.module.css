@@ -86,3 +86,10 @@
         margin-bottom: 0.8rem;
     }
 }
+
+@media (max-width: 1080px) {
+    .paymentContainer {
+        padding: 0.8rem;
+        margin-bottom: 0.65rem;
+    }
+}
