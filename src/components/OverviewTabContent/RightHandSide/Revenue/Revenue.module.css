@@ -60,3 +60,10 @@
     height: 1rem;
     background-color: black;
 }
+
+@media (max-width: 1140px) {
+    .revenueContainer {
+        padding: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+}

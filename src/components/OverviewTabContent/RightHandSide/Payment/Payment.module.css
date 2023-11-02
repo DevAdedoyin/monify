@@ -79,3 +79,10 @@
 .reactSwitch {
     color: pink;
 }
+
+@media (max-width: 1140px) {
+    .paymentContainer {
+        padding: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+}
