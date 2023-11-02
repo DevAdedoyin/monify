@@ -27,3 +27,10 @@
     /* font-style: italic; */
     margin-left: 0.5rem;
 }
+
+@media (max-width: 1195px) {
+    .analyseButtonContainer {
+        padding: 0.8rem;
+    }
+}
+
