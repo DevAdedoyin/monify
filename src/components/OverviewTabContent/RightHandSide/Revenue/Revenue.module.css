@@ -94,3 +94,27 @@
         font-size: 1.05rem;
     }
 }
+
+@media (max-width: 795px) {
+    .totalProduct {
+        font-size: 1.05rem;
+    }
+
+    .totalProductHeader {
+        background-color: transparent;
+        font-size: 0.6rem;
+        margin-bottom: 0.25rem;
+    }
+}
+
+@media (max-width: 760px) {
+    .totalProduct {
+        font-size: 0.8rem;
+    }
+
+    .totalProductHeader {
+        background-color: transparent;
+        font-size: 0.5rem;
+        margin-bottom: 0.25rem;
+    }
+}

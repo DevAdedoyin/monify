@@ -193,3 +193,24 @@
         margin-top: 1.4rem;
     }
 }
+@media (max-width: 755px) {
+    .salesDataTxt {
+        font-size: 0.8rem;
+    }
+
+    .containerOfColors {
+        margin-top: 1.2rem;
+    }
+
+    .ratePrice {
+        font-size: 0.75rem;
+    }
+
+    .yearHeader {
+        font-size: 0.6rem
+    }
+
+    .year {
+        font-size: 0.6rem
+    }
+}

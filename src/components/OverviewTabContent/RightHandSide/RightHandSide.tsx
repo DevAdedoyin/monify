@@ -18,7 +18,7 @@ const RightHandSide = (props: Props) => {
         <SalesData year="2023" amount="£50.94 GBP" rate="+3.20" />
         <SalesData year="2022" amount="£40.94 GBP" rate="+2.54" />
         <div className={rhsStyle.analyseButtonContainer}>
-          <FaPrint style={{ backgroundColor: "transparent" }} />
+          <FaPrint style={{ backgroundColor: "transparent" }} className={rhsStyle.printIcon} />
           <p className={rhsStyle.printTxt}>Generate Report</p>{" "}
         </div>
       </div>

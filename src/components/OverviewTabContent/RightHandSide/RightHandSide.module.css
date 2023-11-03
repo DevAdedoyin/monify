@@ -1,6 +1,6 @@
 .rhsContainer {
     width: 20%;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
     /* display: flex;
     flex-direction: column;
     justify-content: space-between; */
@@ -31,6 +31,20 @@
 @media (max-width: 1195px) {
     .analyseButtonContainer {
         padding: 0.8rem;
+    }
+}
+
+@media (max-width: 760px) {
+    .rhsContainer {
+            width: 17%;
+            margin-left: 1.8rem;
+            /* display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+        }
+
+    .printIcon {
+        display: none;
     }
 }
 
