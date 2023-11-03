@@ -93,3 +93,29 @@
         margin-bottom: 0.65rem;
     }
 }
+
+@media (max-width: 1060px) {
+    .paymentContainer {
+        padding: 0.65rem 0.8rem;
+        margin-bottom: 0.65rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .paymentContainer {
+        padding: 0.6rem 0.8rem;
+        margin-bottom: 0.65rem;
+    }
+}
+
+@media (max-width: 985px) {
+    .amountEnterdTxt {
+        background-color: transparent;
+        font-size: 1.3rem;
+    }
+
+    .amountContainer {
+        background-color: transparent;
+        margin-bottom: 1.5rem;
+    }
+}

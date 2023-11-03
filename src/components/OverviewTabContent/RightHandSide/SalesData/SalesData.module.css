@@ -159,3 +159,17 @@
         margin-bottom: 0.65rem;
     }
 }
+
+@media (max-width: 1060px) {
+    .salesDataContainer {
+        padding: 0.65rem 0.8rem;
+        margin-bottom: 0.65rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .salesDataContainer {
+        padding: 0.6rem 0.8rem;
+        margin-bottom: 0.65rem;
+    }
+}
