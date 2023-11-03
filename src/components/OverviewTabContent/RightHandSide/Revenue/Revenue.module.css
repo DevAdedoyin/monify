@@ -88,3 +88,9 @@
         margin-bottom: 0.65rem;
     }
 }
+
+@media (max-width: 950px) {
+    .totalProduct {
+        font-size: 1.05rem;
+    }
+}

@@ -173,3 +173,23 @@
         margin-bottom: 0.65rem;
     }
 }
+
+@media (max-width: 950px) {
+    .salesDataTxt {
+        font-size: 1.1rem;
+    }
+
+    .containerOfColors {
+        margin-top: 1.7rem;
+    }
+}
+
+@media (max-width: 923px) {
+    .salesDataTxt {
+        font-size: 1rem;
+    }
+
+    .containerOfColors {
+        margin-top: 1.4rem;
+    }
+}
