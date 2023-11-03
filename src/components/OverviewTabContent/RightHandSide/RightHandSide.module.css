@@ -36,15 +36,21 @@
 
 @media (max-width: 760px) {
     .rhsContainer {
-            width: 17%;
-            margin-left: 1.8rem;
-            /* display: flex;
-        flex-direction: column;
-        justify-content: space-between; */
-        }
+        width: 17%;
+        margin-left: 1.8rem;
+    }
 
     .printIcon {
         display: none;
     }
 }
 
+@media (max-width: 760px) {
+    .rhsContainer {
+        display: none;
+    }
+
+    .printIcon {
+        display: none;
+    }
+}

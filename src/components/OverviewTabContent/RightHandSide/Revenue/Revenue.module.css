@@ -118,3 +118,15 @@
         margin-bottom: 0.25rem;
     }
 }
+
+@media (max-width: 715px) {
+    .totalProduct {
+        font-size: 0.65rem;
+    }
+
+    .totalProductHeader {
+        background-color: transparent;
+        font-size: 0.5rem;
+        margin-bottom: 0.25rem;
+    }
+}
