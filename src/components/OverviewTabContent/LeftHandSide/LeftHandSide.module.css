@@ -1,3 +1,7 @@
 .lhsContainer {
     width: 65%;
 }
+
+@media (max-width: 700px) {
+        .lhsContainer {width: 85%;}
+}

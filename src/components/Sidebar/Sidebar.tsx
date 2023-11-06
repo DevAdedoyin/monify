@@ -30,7 +30,7 @@ export default function Sidebar({ children }: Props) {
           >
             Monify.io
           </h1>
-          <FaBars onClick={toggle} style={{ margin: isOpen ? "" : "auto" }} />
+          <FaBars onClick={toggle} style={{ margin: isOpen ? "" : "auto" }} className={SidebarStyle.hamburgerIcon} />
         </div>
         <div className={SidebarStyle.sectionTitleContainer}>
           <h3
