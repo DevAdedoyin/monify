@@ -118,3 +118,68 @@ option {
     text-align: center;
     font-weight: 500;
 }
+
+@media (max-width: 700px) {
+    .inputContainer {
+        width: 70%;
+        padding-left: 4rem;
+    }
+
+    .username {
+        font-size: 0.65rem;
+        font-weight: 600;
+    }
+
+    .rank {
+        font-size: 0.6rem;
+        color: var(--grey-font);
+    }
+
+    .input {
+        width: 70%;
+        font-size: 0.5rem
+    }
+
+    .headerDetailsContainer {
+        display: flex;
+        width: 70%;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .userInitials {
+        font-size: 0.55rem;
+   }
+
+   .profilePicContainer {
+       height: 1.2rem;
+       width: 1.2rem;
+    }
+}
+
+@media (max-width: 570px) {
+    .profilePicContainer {
+        display: none;
+    }
+}
+
+@media (max-width: 540px) {
+    .hr {
+        margin: 0px 0.2rem;
+    }
+
+    .langOptionContainer {
+        margin-left: 1rem;
+    }
+
+    .headerDetailsContainer {
+        display: flex;
+        width: 70%;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 1rem;
+    }
+}

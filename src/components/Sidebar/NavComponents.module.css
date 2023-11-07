@@ -55,18 +55,10 @@
     .navTitle {
         font-size: 0.8rem;
     }
-
-    /* .navTitleClosed {
-
-    } */
 }
 
 @media (max-width: 700px) {
     .navTitle {
         font-size: 0.65rem;
     }
-
-    /* .navTitleClosed {
-
-    } */
 }
