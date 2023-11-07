@@ -32,3 +32,21 @@
     font-size: var(--medium-font);
     text-decoration: underline;
 }
+
+
+@media (max-width: 700px) {
+    .tab0 {
+        font-size: 0.85rem;
+        margin-right: 1.5rem;
+    }
+
+    .tabs {
+        font-size: 0.8rem;
+        margin-right: 1.5rem;
+    }
+
+    .manageTxt {
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+}
