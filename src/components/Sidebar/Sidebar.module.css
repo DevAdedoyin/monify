@@ -126,31 +126,43 @@ hr {
     .titleContainer {
         padding: 1rem 0.02rem;
     }
-}
 
-@media (max-width: 600px) {
-    .sideNavContainerOpen {
-        height: 100%;
-        /* position: fixed; */
-        /* overflow-y: auto; */
-        border-right: 1px groove var(--border-color);
-        padding-left: 1rem;
-        padding-right: 1rem;
-        width: 12%;
+    .hamburgerIcon {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+
+    .sectionTitleContainer .sectionTitle {
+        font-size: 0.7rem;
+    }
+
+    .sectionTitleContainer .sectionTitleClosed {
+        font-size: 0.6rem;
+    }
+
+    .sideNavContainer {
+        width: 14%;
         transition: all ease-in 0.2s;
-        top: 0;
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
     }
 
     .sideNavContainerClosed {
-        top: 0;
-        height: 100%;
-        /* position: fixed; */
-        /* overflow-y: auto; */
-        height: 100vh;
-        width: 5%;
-        border-right: 1px groove var(--border-color);
-        padding-left: 1rem;
-        padding-right: 1rem;
-        transition: all ease-in 0.2s;
+        width: 8%;
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .titleContainer .title {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .hamburgerIcon {
+        width: 0.5rem;
+        height: 0.5rem;
     }
 }
