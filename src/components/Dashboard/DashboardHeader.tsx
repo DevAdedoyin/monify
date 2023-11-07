@@ -19,7 +19,7 @@ function DashboardHeader() {
               <FaSearch className={DHStyle.searchIcon} />
             </InputAdornment>
           }
-          style={{ color: "white", fontSize: "0.7rem" }}
+          style={{ color: "white", fontSize: "0.65rem" }}
           disableUnderline={true}
         />
       </div>
