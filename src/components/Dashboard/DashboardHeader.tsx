@@ -11,7 +11,7 @@ function DashboardHeader() {
     <div className={DHStyle.headerContainer}>
       <div className={DHStyle.inputContainer}>
         <Input
-          placeholder="Search Anything..."
+          placeholder="Search..."
           // variant="outlined"
           className={DHStyle.input}
           endAdornment={
