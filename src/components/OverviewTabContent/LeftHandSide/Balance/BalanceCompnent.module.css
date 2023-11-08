@@ -104,3 +104,24 @@
         font-size: 1.1rem;
     }
 }
+
+@media (max-width: 500px) {
+    .balance {
+        font-size: 1.0rem;
+    }
+
+    .balanceItemContainer {
+        padding: 0.9rem 0.6rem;
+    }
+
+    .iconContainer {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin-right: 1.4rem;
+    }
+
+    .balIcon {
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+}
