@@ -62,3 +62,11 @@
         font-size: 0.65rem;
     }
 }
+
+@media (max-width: 500px) {
+    .navIcon {
+        width: 0.7rem;
+        height: 0.7rem;
+        margin-right: 0.8rem;
+    }
+}
