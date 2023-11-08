@@ -162,3 +162,22 @@ td {
     font-weight: bold;
     border-radius: 15px;
 }
+
+@media (max-width: 940px) {
+    .tspSales {
+        width: 60%;
+    }
+}
+
+@media (max-width: 620px) {
+    .tspSales {
+        width: 70%;
+    }
+}
+
+@media (max-width: 530px) {
+    .tspSales {
+        width: 70%;
+        padding: 0.3rem;
+    }
+}
