@@ -53,3 +53,17 @@
         margin-right: 1.4rem;
     }
 }
+
+@media (max-width: 380px) {
+    .satTitle {
+        font-size: 0.7rem;
+    }
+
+    .tabSAT {
+        margin-right: 1.4rem;
+    }
+
+    .tabSAT1 {
+        margin-right: 1.4rem;
+    }
+}

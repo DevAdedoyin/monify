@@ -146,3 +146,45 @@
         height: 0.8rem;
     }
 }
+
+@media (max-width: 400px) {
+    .balance {
+        font-size: 0.9rem;
+    }
+
+    .balanceItemContainer {
+        padding: 0.6rem 0.5rem;
+    }
+
+    .iconContainer {
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-right: 0.9rem;
+    }
+
+    .balIcon {
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .balance {
+        font-size: 0.8rem;
+    }
+
+    .balanceItemContainer {
+        padding: 0.5rem 0.45rem;
+    }
+
+    .iconContainer {
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-right: 0.8rem;
+    }
+
+    .balIcon {
+        width: 0.65rem;
+        height: 0.65rem;
+    }
+}

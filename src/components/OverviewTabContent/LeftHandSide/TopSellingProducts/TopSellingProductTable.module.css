@@ -188,3 +188,9 @@ td {
         font-size: 0.65rem;
     }
 }
+
+@media (max-width: 380px) {
+    .headerData{
+        font-size: 0.55rem;
+    }
+}

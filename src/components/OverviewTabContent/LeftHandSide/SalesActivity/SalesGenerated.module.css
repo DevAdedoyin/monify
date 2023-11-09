@@ -48,3 +48,13 @@
         font-size: 0.9rem;
     }
 }
+
+@media (max-width: 380px) {
+    .sgTitle {
+        font-size: 0.7rem;
+    }
+
+    .sgAmount {
+        font-size: 0.7rem;
+    }
+}

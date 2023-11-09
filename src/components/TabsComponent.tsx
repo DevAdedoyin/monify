@@ -11,7 +11,6 @@ function TabsComponent({}: Props) {
         <p className={TabStyle.tabs}>Clients</p>
         <p className={TabStyle.tabs}>Account</p>
         <p className={TabStyle.tabs}>Payments</p>
-        <p className={TabStyle.tabs}>{window.innerWidth}</p>
       </div>
       <div className={TabStyle.manageContainer}>
         <p className={TabStyle.manageTxt}>Manage</p>
