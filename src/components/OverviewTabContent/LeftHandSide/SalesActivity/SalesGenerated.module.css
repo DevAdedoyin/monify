@@ -38,3 +38,13 @@
             font-size: 1.1rem;
         }
 }
+
+@media (max-width: 500px) {
+    .sgTitle {
+        font-size: 0.7rem;
+    }
+
+    .sgAmount {
+        font-size: 0.9rem;
+    }
+}

@@ -39,3 +39,17 @@
     text-decoration: underline;
     margin-right: 2rem;
 }
+
+@media (max-width: 500px) {
+    .satTitle {
+        font-size: 0.85rem;
+    }
+
+    .tabSAT {
+        margin-right: 1.4rem;
+    }
+
+    .tabSAT1 {
+        margin-right: 1.4rem;
+    }
+}
