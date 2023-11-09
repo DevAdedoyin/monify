@@ -249,3 +249,31 @@ option {
         margin-left: 1.2rem;
     }
 }
+
+@media (max-width: 390px) {
+    .hr {
+        margin: 0px 0.1rem;
+    }
+
+    .langOptionContainer {
+        margin-left: 0.5rem;
+    }
+
+    .inputContainer {
+        width: 35%;
+        padding-left: 2.5rem;
+    }
+
+    .headerDetailsContainer {
+        padding-right: 1rem;
+        width: 50%;
+    }
+
+    option {
+        font-size: 0.6rem;
+    }
+
+    .langOptionContainer {
+        margin-left: 1.2rem;
+    }
+}
