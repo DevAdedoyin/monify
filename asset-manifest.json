@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/monify/static/css/main.90abf356.css",
+    "main.js": "/monify/static/js/main.d4995de5.js",
+    "static/js/787.a66fd162.chunk.js": "/monify/static/js/787.a66fd162.chunk.js",
+    "static/media/adminsc.png": "/monify/static/media/adminsc.95fa457b3fbf0d718a9c.png",
+    "static/media/managec.png": "/monify/static/media/managec.3915bd22b8e12bf9c0a4.png",
+    "static/media/avbal.png": "/monify/static/media/avbal.7be683435b11f423926d.png",
+    "static/media/setupc.png": "/monify/static/media/setupc.a3004e1e36f75b380c04.png",
+    "static/media/paymentc.png": "/monify/static/media/paymentc.a03cda5e953c9f5bf4f4.png",
+    "static/media/addproc.png": "/monify/static/media/addproc.93fe435774676cec79cc.png",
+    "static/media/orderc.png": "/monify/static/media/orderc.0228d7f142756873a9bb.png",
+    "static/media/dashboardc.png": "/monify/static/media/dashboardc.6d0e1db1d620272b686f.png",
+    "static/media/penbal.png": "/monify/static/media/penbal.155c8b02676ab4a9a845.png",
+    "static/media/updatec.png": "/monify/static/media/updatec.81d10dc674fb54d40d9c.png",
+    "static/media/logoutc.png": "/monify/static/media/logoutc.a78baedd6fc26d3affb0.png",
+    "index.html": "/monify/index.html",
+    "main.90abf356.css.map": "/monify/static/css/main.90abf356.css.map",
+    "main.d4995de5.js.map": "/monify/static/js/main.d4995de5.js.map",
+    "787.a66fd162.chunk.js.map": "/monify/static/js/787.a66fd162.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90abf356.css",
+    "static/js/main.d4995de5.js"
+  ]
+}
