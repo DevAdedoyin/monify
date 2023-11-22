@@ -1,47 +1,36 @@
-# Project Title
+# Project Title:
 ### Monify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Demo Link
+You can demo this website with this link
 
-## Available Scripts
+## Table of Content
+* About The App
+* Screenshots
+* Technologies
+* Setup
+* Status
+* Credits
+* License
 
-In the project directory, you can run:
+## About The App
+Monify is a static website, that displays an Admin Dashboard. It displays some priveleges the super admin have on the website. The admin gets to have a view of all incoming and outgoing transactions, balance of customers, stocks, managing users, sales activity e.t.c.
 
-### `npm start`
+## Screenshots
+![Capture](https://github.com/DevAdedoyin/monify/assets/59482569/7e5b3949-39be-4da1-b519-98a4e0b1540f) ![Capture1](https://github.com/DevAdedoyin/monify/assets/59482569/9c0d31ef-35c4-4ab0-8a8c-3b535caea167) ![Capture2](https://github.com/DevAdedoyin/monify/assets/59482569/1c164efa-0bf2-4089-b927-b1b850be9361)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies
+Technologies used involves, Typescript, Javascript, and React
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Setup
+* download or clone the repository
+* run npm install
+* npm start
 
-### `npm test`
+## Status
+This project is still in progress, but paused for the current period of time. I might not come back to it again.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Credits
+* Adedoyin Idris
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+  
