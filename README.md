@@ -2,7 +2,7 @@
 ### Monify
 
 ## Demo Link
-You can demo this website with this link
+You can demo this website with this link https://devadedoyin.github.io/monify/
 
 ## Table of Content
 * About The App
