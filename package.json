@@ -1,7 +1,7 @@
 {
   "name": "monify",
   "version": "0.1.0",
-  "homepage": "https://DevAdedoyin.github.io/monify",
+  "homepage": "https://DevAdedoyin.github.io/monify/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",

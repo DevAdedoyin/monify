@@ -8,8 +8,8 @@ function App() {
     <BrowserRouter>
       <Sidebar>
         <Routes>
-          <Route path="/monify" element={<Dashboard />} />
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/monify/" element={<Dashboard />} />
+          <Route path="" element={<Dashboard />} />
         </Routes>
       </Sidebar>
     </BrowserRouter>
