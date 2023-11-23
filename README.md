@@ -31,6 +31,6 @@ Technologies used involves, Typescript, Javascript, and React
 This project is still in progress, but paused for the current period of time. I might not come back to it again.
 
 ## Credits
-* Adedoyin Idris
-
+* Software Developer: Adedoyin Idris
+* UI/UX: Dstudio https://dribbble.com/shots/20684056-Sales-Dashboard
   
